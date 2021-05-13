@@ -25,6 +25,7 @@ namespace Roll_dice_2._0
         public void CalculateDamage()
         {
             Damage = (int)(Roll * MagicMultiplier) + BASE_DAMAGE + FlamingDamage;
+            Console.WriteLine("Rolled {0} for {1} HP  \n\n\n", Roll , Damage );
         }
 
 // Set Sword as Magic sword 1 = yes , 3 = yes, 1 - no, 
